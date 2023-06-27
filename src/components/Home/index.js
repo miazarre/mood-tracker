@@ -5,14 +5,10 @@ const Home = () => {
     <div className="flex flex-col items-center text-slate-950">
       <div className="bg-design-mood h-40 w-full"></div>
       <h1 className="relative mt-20 font-main text-9xl">Mood Tracker</h1>
-      <p className="m-20 p-20 font-second text-3xl text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+      <p className="my-20 mx-96 py-20 px-96 font-second text-3xl text-center">
+        Sometimes it's hard to take a step back and understand our mental state.
+        Here's a mood tracker, to be completed daily, which gives you a visual
+        of the current month and how you're feeling.
       </p>
       <div className="flex">
         <Link to="/login">
