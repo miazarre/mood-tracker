@@ -4,10 +4,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "design-mood": "url('./assets/images/Scribble-32.svg')",
+        "design-mood": "url('./assets/images/smiley.svg')",
       },
       fontFamily: {
         main: ["EricaOne", "sans-serif"],
+        second: ["Roboto", "sans-serif"],
       },
     },
   },
