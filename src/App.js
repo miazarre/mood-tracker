@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import SignUp from "./components/SignUp";
 import Login from "./components/Login";
 import Error from "./components/Error";
+import Calendar from "./components/Calendar";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<Error />} />
+          <Route path="/calendar" element={<Calendar />} />
         </Routes>
       </main>
       <Footer />
