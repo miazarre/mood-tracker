@@ -7,8 +7,13 @@ const CalendarItem = () => {
   return (
     <>
       <LogOut />
-      <div>
-        <Calendar onChange={onChange} value={value} />
+      <div className="flex flex-row flex-wrap items-start mt-10 mb-0 p-10">
+        <Calendar
+          onChange={onChange}
+          showWeekNumbers
+          value={value}
+          className="flex max-w-full basis-420px flex-col grow-100 items-stretch pt-10"
+        />
       </div>
     </>
   );
