@@ -2,12 +2,13 @@ import React, { useEffect, useState } from "react";
 import "./index.css";
 import LogOut from "./LogOut";
 import Calendar from "react-calendar";
+import Counter from "./Counter";
 
 const CalendarItem = () => {
   const [value, onChange] = useState(new Date());
   return (
     <>
-      <LogOut />
+      <Counter />
       <div className="Calendar">
         <div className="Calendar__container">
           <main className="Calendar__container__content">
@@ -15,6 +16,7 @@ const CalendarItem = () => {
           </main>
         </div>
       </div>
+      <LogOut />
     </>
   );
 };
